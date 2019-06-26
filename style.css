@@ -1,0 +1,33 @@
+body {
+	font-family: sans-serif;
+	background-color: lightgray;
+	color: #333;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+a {
+	color: purple;
+}
+
+.container{
+	padding: 2em;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	background-color: purple;
+	color: white;
+}
+
+header a {
+	color: white;
+}
+
+footer {
+	background-color: purple;
+	color: white;
+}
